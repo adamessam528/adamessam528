@@ -4,9 +4,9 @@
 
 ## What I'm working on
 
-**Master's thesis: *Secure Network Paths* — Trusted Path Routing with TPM-based remote attestation.**
+**Master's thesis — Trusted Path Routing with TPM-based remote attestation.**
 
-I'm making a network detect a tampered router and route around it on its own. Each router measures its own configuration into a TPM; Keylime and the neighbouring routers verify that evidence through remote attestation (Stamped Passports); and BGP (BIRD) automatically steers traffic away from any router that fails the check, with no human in the loop. I build and test it on a four-router Ubuntu testbed and measure what that trust costs in latency and overhead. Supervised by Prof. Antonio Lioy.
+I'm working on making a network's routing decisions depend on trust: routers prove their integrity through TPM-based remote attestation (Keylime), and the routing layer (BIRD) steers traffic away from any node that fails verification. Supervised by Prof. Antonio Lioy at Politecnico di Torino.
 
 ## Offensive security
 
